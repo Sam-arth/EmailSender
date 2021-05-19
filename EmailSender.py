@@ -17,7 +17,7 @@ subject = "Subject Here"
 message = "Message here"
   
 # sending the mail 
-s.sendmail("From", "To" , subject , message) 
+s.sendmail("From", "To" , subject, message) 
   
 # terminating the session 
 s.quit() 
